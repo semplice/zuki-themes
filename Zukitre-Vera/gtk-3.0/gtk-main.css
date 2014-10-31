@@ -1,7 +1,10 @@
+/* Vera color */
+@define-color vera-color #2099d6;
+
 /* Default color scheme */
 @define-color theme_base_color #f7f7f7;
 @define-color theme_bg_color #d6d6d6;
-@define-color theme_selected_bg_color #2099d6;
+@define-color theme_selected_bg_color @vera-color;
 @define-color theme_text_color #2c2c2c;
 @define-color theme_fg_color @theme_text_color;
 @define-color theme_selected_fg_color #ffffff;
