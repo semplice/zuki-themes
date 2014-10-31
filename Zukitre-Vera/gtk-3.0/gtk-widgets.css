@@ -886,8 +886,7 @@ GtkComboBox.combobox-entry .button {
 	-GtkArrow-arrow-scaling: 0.5;
 
 	border-style: solid;
-	border-color: transparent;
-
+	
 	text-shadow: 0 1px @button_text_shadow;
 }
 
@@ -922,7 +921,7 @@ GtkComboBox.combobox-entry .button {
 	 * we set in gtk-widget-borders.css to zero.
 	 */
 	border-style: solid;
-	border-width: 2px;
+	border-width: 1px;
 	border-color: transparent;
 
 	text-shadow: 0 1px @button_text_shadow;
@@ -1103,7 +1102,7 @@ GtkComboBox.combobox-entry .button {
 .linked .button:checked:hover:first-child,
 .linked .button:insensitive:first-child {
 	border-right-width: 0;
-	border-left-width: 2px;
+	border-left-width: 1px;
 	border-image-width: 3px 0 3px 3px;
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 0;
@@ -1117,7 +1116,7 @@ GtkComboBox.combobox-entry .button {
 .linked .button:checked:last-child,
 .linked .button:checked:hover:last-child,
 .linked .button:insensitive:last-child {
-	border-right-width: 2px;
+	border-right-width: 1px;
 	border-left-width: 0;
 	border-image-width: 3px 3px 3px 0;
 	border-bottom-left-radius: 0;
@@ -1735,28 +1734,24 @@ GtkComboBox .separator {
 GtkComboBox.combobox-entry .entry:first-child,
 GtkComboBox.combobox-entry .button:first-child {
 	border-image-width: 3px 0 3px 3px;
-	border-radius: 3px 0 0 3px;
 	border-right-width: 0;
 }
 
 GtkComboBox.combobox-entry .entry:last-child,
 GtkComboBox.combobox-entry .button:last-child {
 	border-image-width: 3px 3px 3px 0;
-	border-radius: 0 3px 3px 0;
 	border-left-width: 0;
 }
 
 .primary-toolbar GtkComboBox.combobox-entry .entry:first-child,
 .primary-toolbar GtkComboBox.combobox-entry .button:first-child {
 	border-image-width: 3px 0 3px 3px;
-	border-radius: 3px 0 0 3px;
 	border-right-width: 0;
 }
 
 .primary-toolbar GtkComboBox.combobox-entry .entry:last-child,
 .primary-toolbar GtkComboBox.combobox-entry .button:last-child {
 	border-image-width: 3px 3px 3px 0;
-	border-radius: 0 3px 3px 0;
 	border-left-width: 0;
 }
 
