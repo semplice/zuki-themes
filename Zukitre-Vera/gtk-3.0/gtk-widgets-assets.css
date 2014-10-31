@@ -149,25 +149,6 @@
 	background-image: url("assets/sidebar-radio-selected-prelight.svg");	
 }
 
-/*************
- * GtkSwitch *
- *************/
-GtkSwitch.trough {
- 	background-image: url("assets/switch-off.png");
-}
-
-GtkSwitch.trough:active {
-	background-image: url("assets/switch-on.png");
-}
-
-GtkSwitch.trough:insensitive {
-	background-image: url("assets/switch-off-ins.png");
-}
-
-GtkSwitch.trough:active:insensitive {
-	background-image: url("assets/switch-on-ins.png");
-}
-
 /*********************
  * GtkScale's slider *
  *********************/

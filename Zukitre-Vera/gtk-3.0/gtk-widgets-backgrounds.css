@@ -3,6 +3,8 @@
 .toolbar .button.raised,
 .toolbar .raised .button,
 .toolbar GtkComboBox .button,
+GtkSwitch.slider,
+GtkSwitch.slider:active,
 .spinbutton.vertical .button {
 	background-image: linear-gradient(to bottom, 
 		@button_gradient_color_a,
@@ -98,6 +100,8 @@
 
 /* Prelit button background */
 .button:hover,
+GtkSwitch.slider:hover,
+GtkSwitch.slider:active:hover,
 .toolbar .button:hover,
 .toolbar .button.raised:hover,
 .toolbar .raised .button:hover,
@@ -119,6 +123,8 @@
 
 /* Insensitive button background */
 .button:insensitive,
+GtkSwitch.slider:insensitive,
+GtkSwitch.slider:active:insensitive,
 .spinbutton.vertical .button:insensitive,
 .toolbar GtkComboBox .button:insensitive,
 .toolbar .button.raised:insensitive,

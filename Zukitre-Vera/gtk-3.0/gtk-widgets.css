@@ -3255,30 +3255,40 @@ GtkAssistant .sidebar {
 /*************
  * GtkSwitch *
  *************/
-
+ 
 GtkSwitch {
-	border-radius: 0px;
-	padding: 0px;
-	background-color: transparent;
+    border-radius: 0px;
+    font: light;
 }
 
-GtkSwitch.trough,
-GtkSwitch.trough:insensitive {
-	border: none;
-	border-image: none;
-	color: transparent;
-	box-shadow: none;
-	background-color: transparent;
-	background-size: 52px 22px;
-	background-position: center center;
-	background-repeat: no-repeat;
-	text-shadow: none;
+/* Normal */
+GtkSwitch.trough {
+    color: @theme_text_color;
+    border-radius: 0px;
+    border: 1px solid @borders;
+    background-color: @vera-color;
+    box-shadow:none;
 }
 
 GtkSwitch.slider {
-	background-color: transparent;
-	border: none;
-	border-image: none;
+    border-radius: 0px;
+    border: 1px solid @borders;
+}
+
+/* Active */
+GtkSwitch.trough:active {
+    color: @theme_selected_fg_color;
+    border: 1px solid @borders;
+    background: @vera-color;
+}
+
+/* Insensitive */
+GtkSwitch.trough:insensitive,
+GtkSwitch.trough:active:insensitive {
+    border-radius: 0px;
+    color: @insensitive_fg_color;
+    border: 1px solid @borders;
+    background-color: @insensitive_bg_color;
 }
 
 /************
