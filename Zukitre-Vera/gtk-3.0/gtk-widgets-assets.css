@@ -50,94 +50,74 @@
 
 .check,
 .view.cell.check {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-normal.png"));
-	background-image: url("assets/check-normal.png");
-	background-repeat: no-repeat;
-	background-position: center;
+	-gtk-icon-source: -gtk-icontheme("checkbox-symbolic");
+	color: @vera-color;
 }
 
 .check:insensitive {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-normal-ins.png"));
-	background-image: url("assets/check-normal-ins.png");
+	-gtk-icon-source: -gtk-icontheme("checkbox-symbolic");
+	color: @insensitive_fg_color;
 }
 
 .check row:insensitive {
 	background-color: transparent;
 }
 
-/* active and checked needs to be seperated for older GTK support? */
-.check:active,
-.view.cell.check:active {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-active.png"));
-	background-image: url("assets/check-active.png");
-}
-
 .check:checked,
 .view.cell.check:checked {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-active.png"));
-	background-image: url("assets/check-active.png");
+	-gtk-icon-source: -gtk-icontheme("checkbox-checked-symbolic");
+	color: @vera-color;
 }
 
-.check:active:insensitive,
 .check:checked:insensitive {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-active-ins.png"));
-	background-image: url("assets/check-active-ins.png");
+	-gtk-icon-source: -gtk-icontheme("checkbox-checked-symbolic");
+	color: @insensitive_fg_color;
 }
 
 .check:inconsistent {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-mixed-active.png"));
-	background-image: url("assets/check-mixed-active.png");
+	-gtk-icon-source: -gtk-icontheme("checkbox-mixed-symbolic");
+	color: @vera-color;
 }
 
 .check:inconsistent:insensitive {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-mixed-active-ins.png"));
-	background-image: url("assets/check-mixed-active-ins.png");
+	-gtk-icon-source: -gtk-icontheme("checkbox-mixed-symbolic");
+	color: @insensitive_fg_color;
 }
 
 .radio,
 .view.cell.radio {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-normal.png"));
-	background-image: url("assets/radio-normal.png");
-	background-repeat: no-repeat;
-	background-position: center;
+	-gtk-icon-source: -gtk-icontheme("radio-symbolic");
+	color: @vera-color;
 }
 
 .radio:insensitive {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-normal-ins.png"));
-	background-image: url("assets/radio-normal-ins.png");
+	-gtk-icon-source: -gtk-icontheme("radio-symbolic");
+	color: @insensitive_fg_color;
 }
 
 .radio row:insensitive {
 	background-color: transparent;
 }
 
-/* active and checked needs to be seperated for older GTK support? */
-.radio:active,
-.view.cell.radio:active {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-active.png"));
-	background-image: url("assets/radio-active.png");
-}
-
 .radio:checked,
 .view.cell.radio:checked {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-active.png"));
-	background-image: url("assets/radio-active.png");
+	-gtk-icon-source: -gtk-icontheme("radio-checked-symbolic");
+	color: @vera-color;
 }
 
-.radio:active:insensitive,
 .radio:checked:insensitive {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-active-ins.png"));
-	background-image: url("assets/radio-active-ins.png");
+	-gtk-icon-source: -gtk-icontheme("radio-checked-symbolic");
+	color: @insensitive_fg_color;
 }
 
 .radio:inconsistent {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-active.png"));
-	background-image: url("assets/radio-mixed-active.png");
+	-gtk-icon-source: -gtk-icontheme("radio-mixed-symbolic");
+	color: @vera-color;
 }
 
 .radio:inconsistent:insensitive {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-active-ins.png"));
-	background-image: url("assets/radio-mixed-active-ins.png");
+	-gtk-icon-source: -gtk-icontheme("radio-mixed-symbolic");
+	color: @insensitive_fg_color;
 }
 
 .sidebar .view.radio:active,
