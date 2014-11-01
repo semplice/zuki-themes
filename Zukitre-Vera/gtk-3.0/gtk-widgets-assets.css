@@ -54,6 +54,17 @@
 	color: @vera-color;
 }
 
+.check:hover,
+.check:checked:hover,
+.radio:hover,
+.radio:checked:hover {
+	color: shade(@vera-color, 1.3);
+}
+
+.view.cell.check:selected {
+	color: @theme_selected_fg_color;
+}
+
 .check:insensitive {
 	-gtk-icon-source: -gtk-icontheme("checkbox-symbolic");
 	color: @insensitive_fg_color;
