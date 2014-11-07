@@ -1,0 +1,18 @@
+Source: semplice-zuki-themes
+Section: misc
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github-com/semplice/zuki-themes
+Vcs-Git: https://github-com/semplice/zuki-themes.git
+Vcs-Browser: https://github-com/semplice/zuki-themes
+
+Package: semplice-zuki-themes
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf
+Description: Set of themes for Semplice on the vera desktop environment
+ This package contains the default themes for Semplice 7+, based on
+ "zuki-themes" by lassekongo83.
+ .
+ It currently contains only the "Zukitre-Vera" theme.
