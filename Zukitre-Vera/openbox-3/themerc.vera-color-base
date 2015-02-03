@@ -1,0 +1,106 @@
+#openbox themerc edited with obtheme
+border.width: 1
+
+menu.border.color: #AFAFAF
+menu.items.active.bg.highlight: 50
+menu.items.active.bg.shadow: 05
+menu.items.active.bg: Flat
+menu.items.active.bg.color: @vera-color
+menu.items.active.text.color: #ffffff
+
+menu.items.bg.highlight: 50
+menu.items.bg.shadow: 05
+menu.items.bg: Flat Solid
+menu.items.bg.color: #ECECEC
+
+menu.items.disabled.text.color: #aaaaaa
+menu.items.font: shadow=y:shadowtint=0:shadowoffset=1
+menu.items.text.color: #2C2C2C
+menu.overlap: 2
+
+menu.separator.color: #DBDBDB
+menu.separator.padding.height: 5
+menu.separator.padding.width: 2
+menu.separator.width: 1
+
+menu.title.bg.highlight: 50
+menu.title.bg.shadow: 05
+menu.title.bg: Flat
+menu.title.bg.color: #ECECEC
+menu.title.text.color: #2C2C2C
+menu.title.text.font: shadow=n
+menu.title.text.justify: center
+
+osd.bg.highlight: 50
+osd.bg.shadow: 05
+osd.bg: flat
+osd.bg.color: #ECECEC
+osd.border.color: #AFAFAF
+osd.hilight.bg.highlight: 50
+osd.hilight.bg.shadow: 05
+osd.hilight.bg: flat
+osd.hilight.bg.color: @vera-color
+osd.label.bg.highlight: 50
+osd.label.bg.shadow: 05
+osd.label.text.font: shadow=n
+osd.unhilight.bg.highlight: 50
+osd.unhilight.bg.shadow: 05
+osd.unhilight.bg: flat
+osd.unhilight.bg.color: #808080
+
+padding.height: 6
+padding.width: 5
+
+window.active.border.color: #626467
+window.active.button.disabled.bg: ParentRelative Flat
+window.active.button.disabled.image.color: #F4F5F6
+window.active.button.hover.image.color: @vera-color
+window.active.button.pressed.bg: ParentRelative Flat
+window.active.button.pressed.image.color: @vera-color
+window.active.button.toggled.hover.image.color: @vera-color
+window.active.button.toggled.unpressed.image.color: #2C2C2C
+window.active.button.unpressed.bg: ParentRelative Flat
+window.active.button.unpressed.image.color: #2C2C2C
+window.active.client.color: #D6D6D6
+window.active.grip.bg: Solid Flat
+window.active.grip.bg.color: #626467
+window.active.handle.bg: Solid Flat
+window.active.handle.bg.color: #626467
+window.active.label.bg.highlight: 50
+window.active.label.bg.shadow: 05
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #2C2C2C
+window.active.label.text.font: shadow=n
+window.active.title.bg: Solid Flat
+window.active.title.bg.color: #D6D6D6
+window.active.title.separator.color: #D6D6D6
+
+window.client.padding.width: 0
+window.handle.width: 1
+
+window.inactive.border.color: #AFAFAF
+window.inactive.button.disabled.bg: ParentRelative Flat
+window.inactive.button.disabled.image.color: #F4F5F6
+window.inactive.button.hover.image.color: @vera-color
+window.inactive.button.pressed.bg: ParentRelative Flat
+window.inactive.button.pressed.image.color: @vera-color
+window.inactive.button.toggled.hover.image.color: @vera-color
+window.inactive.button.toggled.unpressed.image.color: #808080
+window.inactive.button.unpressed.bg: ParentRelative Flat
+window.inactive.button.unpressed.image.color: #808080
+window.inactive.client.color: #D6D6D6
+window.inactive.grip.bg: Solid Flat
+window.inactive.grip.bg.color: #AFAFAF
+window.inactive.handle.bg: Solid Flat
+window.inactive.handle.bg.color: #AFAFAF
+window.inactive.label.bg.highlight: 50
+window.inactive.label.bg.shadow: 05
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #808080
+window.inactive.label.text.font: shadow=n
+window.inactive.title.bg: Solid Flat
+window.inactive.title.bg.color: #D6D6D6
+window.inactive.title.separator.color: #D6D6D6
+
+
+window.label.text.justify: Center
