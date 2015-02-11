@@ -1,4 +1,5 @@
-#openbox themerc edited with obtheme
+# @vera-color-default #2099d6
+
 border.width: 1
 
 menu.border.color: #AFAFAF
