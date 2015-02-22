@@ -19,7 +19,15 @@ include /usr/share/dpkg/default.mk
 
 # main packaging script based on dh7 syntax
 %:
-	dh $@ 
+	dh $@
+
+override_dh_auto_build:
+	dh_auto_build
+	$(CURDIR)/compile_gtk3_theme.sh
+
+override_dh_auto_clean:
+	dh_auto_clean
+	$(CURDIR)/clean.sh
 
 # debmake generated override targets
 # This is example for Cmake (See http://bugs.debian.org/641051 )
