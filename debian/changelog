@@ -1,3 +1,9 @@
+semplice-zuki-themes (1.4.1-1) unstable; urgency=medium
+
+  * clean.sh: do not return 1 if the file doesn't exist.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 22 Feb 2015 12:04:09 +0100
+
 semplice-zuki-themes (1.4-1) unstable; urgency=medium
 
   * gtk-2.0: made buttons and checks/radios more color-agnostic.
