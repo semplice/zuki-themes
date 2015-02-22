@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gresources>
+
+	<gresource prefix="/org/semplicelinux/themes/Zukitre-Vera">
+		
+		<!-- images -->
+		<file preprocess="to-pixdata">window-controls/minimize_focused_pressed.svg</file>
+		<file preprocess="to-pixdata">window-controls/minimize_focused_normal.svg</file>
+		<file preprocess="to-pixdata">window-controls/close_focused_pressed.svg</file>
+		<file preprocess="to-pixdata">window-controls/maximize_unfocused.svg</file>
+		<file preprocess="to-pixdata">window-controls/menu_prelight.svg</file>
+		<file preprocess="to-pixdata">window-controls/minimize_unfocused.svg</file>
+		<file preprocess="to-pixdata">window-controls/menu.svg</file>
+		<file preprocess="to-pixdata">window-controls/close_unfocused_prelight.svg</file>
+		<file preprocess="to-pixdata">window-controls/maximize_focused_prelight.svg</file>
+		<file preprocess="to-pixdata">window-controls/maximize_focused_pressed.svg</file>
+		<file preprocess="to-pixdata">window-controls/close_focused_prelight.svg</file>
+		<file preprocess="to-pixdata">window-controls/close_unfocused.svg</file>
+		<file preprocess="to-pixdata">window-controls/minimize_focused_prelight.svg</file>
+		<file preprocess="to-pixdata">window-controls/minimize_unfocused_prelight.svg</file>
+		<file preprocess="to-pixdata">window-controls/maximize_unfocused_prelight.svg</file>
+		<file preprocess="to-pixdata">window-controls/maximize_focused_normal.svg</file>
+		<file preprocess="to-pixdata">window-controls/close_focused_normal.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-radio-checked.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-checkbox-mixed-insensitive.svg</file>
+		<file preprocess="to-pixdata">assets/sidebar-radio-selected-prelight.svg</file>
+		<file preprocess="to-pixdata">assets/dnd-counter.svg</file>
+		<file preprocess="to-pixdata">assets/sidebar-radio-prelight.svg</file>
+		<file preprocess="to-pixdata">assets/grid-selection-unchecked.svg</file>
+		<file preprocess="to-pixdata">assets/resize-grip.svg</file>
+		<file preprocess="to-pixdata">assets/switch-off.svg</file>
+		<file preprocess="to-pixdata">assets/sidebar-radio-selected.svg</file>
+		<file preprocess="to-pixdata">assets/sidebar-radio-checked.svg</file>
+		<file preprocess="to-pixdata">assets/grid-selection-checked.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-checkbox-mixed.svg</file>
+		<file preprocess="to-pixdata">assets/switch-on.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-checkbox-mixed-selected.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-checkbox-checked.svg</file>
+		<file preprocess="to-pixdata">assets/switch-on-ins.svg</file>
+		<file preprocess="to-pixdata">assets/pane-separator-grip.svg</file>
+		<file preprocess="to-pixdata">assets/switch-off-ins.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-checkbox-checked-selected.svg</file>
+		<file preprocess="to-pixdata">assets/pane-separator-grip-vertical.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-checkbox-checked-insensitive.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-radio-checked-insensitive.svg</file>
+		<file preprocess="to-pixdata">assets/menuitem-radio-checked-selected.svg</file>
+		<file preprocess="to-pixdata">assets/slider.png</file>
+		<file preprocess="to-pixdata">assets/thumbnail-frame.png</file>
+		<file preprocess="to-pixdata">assets/slider-hover.png</file>
+		<file preprocess="to-pixdata">assets/header-separator.png</file>
+		<file preprocess="to-pixdata">assets/switch-off.png</file>
+		<file preprocess="to-pixdata">assets/switch-on.png</file>
+		<file preprocess="to-pixdata">assets/switch-on-ins.png</file>
+		<file preprocess="to-pixdata">assets/null.png</file>
+		<file preprocess="to-pixdata">assets/slider-ins.png</file>
+		<file preprocess="to-pixdata">assets/header-separator@2.png</file>
+		<file preprocess="to-pixdata">assets/switch-off-ins.png</file>
+		<file preprocess="to-pixdata">borders/nohl-generic-border.png</file>
+
+		<!-- theme -->
+		<file>gtk-main.css</file>
+		<file>gtk-fallback.css</file>
+		<file>gtk-main-common.css</file>
+		<file>gtk-widgets.css</file>
+		<file>gtk-widgets-assets.css</file>
+		<file>gtk-widgets-backgrounds.css</file>
+		<file>gtk-widgets-borders.css</file>
+		<file>other-applications.css</file>
+		<file>unity.css</file>
+		<file>window-controls.css</file>
+	
+	</gresource>
+
+</gresources>
