@@ -1,3 +1,11 @@
+semplice-zuki-themes (1.4.2-1) unstable; urgency=medium
+
+  * Added gitignore.
+  * gtk-3.0: use @vera-color for the @infobar_bg_color.
+  * gtk-2.0: use @selected_bg_color for link colors.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 03 Apr 2015 14:37:29 +0200
+
 semplice-zuki-themes (1.4.1-1) unstable; urgency=medium
 
   * clean.sh: do not return 1 if the file doesn't exist.
