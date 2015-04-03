@@ -62,7 +62,7 @@
 @define-color trough_bg_color_a shade(@theme_bg_color, 0.89);
 @define-color trough_bg_color_b shade(@theme_bg_color, 0.96);
 
-@define-color infobar_bg_color rgb (138, 173, 212);
+@define-color infobar_bg_color @vera-color;
 
 @define-color scrollbar_trough shade(@theme_bg_color, 0.98);
 @define-color scrollbar_trough_insensitive shade(@theme_bg_color, 1.0);

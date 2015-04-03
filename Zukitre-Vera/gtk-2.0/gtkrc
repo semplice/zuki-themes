@@ -35,11 +35,11 @@ gtk-auto-mnemonics	= 1 # Disables ugly lines under menu items
 ####################
 
 style "murrine-default" {
-	GnomeHRef	::link_color			= @link_color		
-	GtkHTML		::link-color			= @link_color
- 	GtkIMHtmlr	::hyperlink-color		= @link_color
-	GtkIMHtml	::hyperlink-color		= @link_color
-	GtkWidget	::link-color			= @link_color
+	GnomeHRef	::link_color			= @selected_bg_color		
+	GtkHTML		::link-color			= @selected_bg_color
+ 	GtkIMHtmlr	::hyperlink-color		= @selected_bg_color
+	GtkIMHtml	::hyperlink-color		= @selected_bg_color
+	GtkWidget	::link-color			= @selected_bg_color
 	GtkWidget	::visited-link-color		= @text_color
 
 	GtkButton	::child-displacement-x		= 1
