@@ -44,6 +44,7 @@
 @define-color button_gradient_color_b shade(@theme_bg_color, 1.04);
 @define-color button_gradient_color_c shade(@theme_bg_color, 1.06);
 @define-color borders #afafaf;
+@define-color darker_borders #626467;
 
 @define-color button_active_gradient_color_a shade(@theme_bg_color, 0.8);
 @define-color button_active_gradient_color_b shade(@theme_bg_color, 0.9);
