@@ -3953,6 +3953,17 @@ GtkModelButton.button:selected {
 	box-shadow: 0 2px 5px 1px @wm_shadow;
 }
 
+/* GTK+ 3.16 compatibility */
+.window-frame.solid-csd {
+	border: solid 0px @darker_borders;
+	background-color: @darker_borders;
+	border-radius: 0;
+    box-shadow: none;
+    
+    margin: 1px;
+}
+/* FIXME: How to handle inactive windows? */
+
 /* Various hacks and shit */
 /* FIXME - BELOW: Some stuff that can probably be done better or in another way */
 
