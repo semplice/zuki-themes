@@ -1,3 +1,11 @@
+semplice-zuki-themes (1.4.3-1) unstable; urgency=medium
+
+  * [gtk-3.0] Define new color property @darker-borders.
+  * [gtk-3.0] Use new CSD rules introduced in GTK+ 3.16 when not in a compositor
+  * [gtk-3.0] Remove border-radius in the CSD titlebar.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 03 Jul 2015 18:25:55 +0200
+
 semplice-zuki-themes (1.4.2-1) unstable; urgency=medium
 
   * Added gitignore.
