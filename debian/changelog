@@ -1,3 +1,9 @@
+semplice-zuki-themes (1.4.5-1) unstable; urgency=medium
+
+  * [gtk-3.0] Disable the undershoot.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 11 Sep 2015 18:11:00 +0200
+
 semplice-zuki-themes (1.4.4-1) unstable; urgency=medium
 
   * Version bump.
