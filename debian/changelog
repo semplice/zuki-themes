@@ -1,3 +1,9 @@
+semplice-zuki-themes (1.4.6-1) unstable; urgency=medium
+
+  * [gtk-3.0] Theme overshoot's top and bottom but not left and right.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 11 Sep 2015 18:14:11 +0200
+
 semplice-zuki-themes (1.4.5-1) unstable; urgency=medium
 
   * [gtk-3.0] Disable the undershoot.
