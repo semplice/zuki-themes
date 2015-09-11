@@ -189,6 +189,14 @@ GtkTextView {
 	background-color: alpha (@theme_selected_bg_color, 0.35);
 }
 
+.undershoot,
+.undershoot.top,
+.undershoot.bottom,
+.undershoot.right,
+.undershoot.left {
+	background: none;
+}
+
 GtkStatusbar {
 	padding: 5px;
 	color: @theme_fg_color;
@@ -4067,3 +4075,5 @@ GtkModelButton.button:selected {
 .nautilus-desktop.nautilus-canvas-item:selected:backdrop {
 	color: @theme_unfocused_selected_fg_color;
 }
+
+
