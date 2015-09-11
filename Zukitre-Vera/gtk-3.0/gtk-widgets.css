@@ -185,10 +185,14 @@ GtkTextView {
 	border-radius: 0px;
 }
 
-.overshoot {
+.overshoot
+.overshoot.top,
+.overshoot.bottom {
 	background-color: alpha (@theme_selected_bg_color, 0.35);
 }
 
+.overshoot.right,
+.overshoot.left,
 .undershoot,
 .undershoot.top,
 .undershoot.bottom,
