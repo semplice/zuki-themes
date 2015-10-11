@@ -1089,6 +1089,16 @@ GtkComboBox.combobox-entry .button {
 }
 
 /* Middle button */
+.linked > GtkComboBox > .button:last-child,
+.linked > GtkComboBox > .button:focus:last-child,
+.linked > GtkComboBox > .button:hover:last-child,
+.linked > GtkComboBox > .button:insensitive:last-child,
+.linked > GtkComboBox > .button:active:last-child,
+.linked > GtkComboBox > .button:checked:last-child,
+.linked > GtkComboBox > .button:focus:active:last-child,
+.linked > GtkComboBox > .button:focus:checked:last-child,
+.linked > GtkComboBox > .button:active:hover:last-child,
+.linked > GtkComboBox > .button:checked:hover:last-child,
 .linked .entry,
 .linked .button,
 .linked .button:active,
@@ -1103,6 +1113,16 @@ GtkComboBox.combobox-entry .button {
 }
 
 /* Leftmost button */
+.linked > GtkComboBox:first-child > .button:last-child,
+.linked > GtkComboBox:first-child > .button:focus:last-child,
+.linked > GtkComboBox:first-child > .button:hover:last-child,
+.linked > GtkComboBox:first-child > .button:insensitive:last-child,
+.linked > GtkComboBox:first-child > .button:active:last-child,
+.linked > GtkComboBox:first-child > .button:checked:last-child,
+.linked > GtkComboBox:first-child > .button:focus:active:last-child,
+.linked > GtkComboBox:first-child > .button:focus:checked:last-child,
+.linked > GtkComboBox:first-child > .button:active:hover:last-child,
+.linked > GtkComboBox:first-child > .button:checked:hover:last-child,
 .linked .entry:first-child,
 .linked .button:first-child,
 .linked .button:active:first-child,
@@ -1118,6 +1138,16 @@ GtkComboBox.combobox-entry .button {
 }
 
 /* Rightmost button */
+.linked > GtkComboBox:last-child > .button:last-child,
+.linked > GtkComboBox:last-child > .button:focus:last-child,
+.linked > GtkComboBox:last-child > .button:hover:last-child,
+.linked > GtkComboBox:last-child > .button:insensitive:last-child,
+.linked > GtkComboBox:last-child > .button:active:last-child,
+.linked > GtkComboBox:last-child > .button:checked:last-child,
+.linked > GtkComboBox:last-child > .button:focus:active:last-child,
+.linked > GtkComboBox:last-child > .button:focus:checked:last-child,
+.linked > GtkComboBox:last-child > .button:active:hover:last-child,
+.linked > GtkComboBox:last-child > .button:checked:hover:last-child,
 .linked .entry:last-child,
 .linked .button:last-child,
 .linked .button:active:last-child,
@@ -1133,6 +1163,16 @@ GtkComboBox.combobox-entry .button {
 }
 
 /* Linked single button */
+.linked > GtkComboBox:only-child > .button:only-child,
+.linked > GtkComboBox:only-child > .button:focus:only-child,
+.linked > GtkComboBox:only-child > .button:hover:only-child,
+.linked > GtkComboBox:only-child > .button:insensitive:only-child,
+.linked > GtkComboBox:only-child > .button:active:only-child,
+.linked > GtkComboBox:only-child > .button:checked:only-child,
+.linked > GtkComboBox:only-child > .button:focus:active:only-child,
+.linked > GtkComboBox:only-child > .button:focus:checked:only-child,
+.linked > GtkComboBox:only-child > .button:active:hover:only-child,
+.linked > GtkComboBox:only-child > .button:checked:hover:only-child,
 .linked .entry:only-child,
 .linked .button:only-child,
 .linked .button:active:only-child,
@@ -1147,6 +1187,16 @@ GtkComboBox.combobox-entry .button {
 }
 
 /* Middle button (vertical) */
+.linked.vertical > GtkComboBox > .button:last-child,
+.linked.vertical > GtkComboBox > .button:focus:last-child,
+.linked.vertical > GtkComboBox > .button:hover:last-child,
+.linked.vertical > GtkComboBox > .button:insensitive:last-child,
+.linked.vertical > GtkComboBox > .button:active:last-child,
+.linked.vertical > GtkComboBox > .button:checked:last-child,
+.linked.vertical > GtkComboBox > .button:focus:active:last-child,
+.linked.vertical > GtkComboBox > .button:focus:checked:last-child,
+.linked.vertical > GtkComboBox > .button:active:hover:last-child,
+.linked.vertical > GtkComboBox > .button:checked:hover:last-child,
 .linked.vertical .entry,
 .linked.vertical .button,
 .linked.vertical .button:active,
@@ -1163,6 +1213,16 @@ GtkComboBox.combobox-entry .button {
 }
 
 /* Top button (vertical) */
+.linked.vertical > GtkComboBox:first-child > .button:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:focus:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:hover:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:insensitive:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:active:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:checked:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:focus:active:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:focus:checked:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:active:hover:last-child,
+.linked.vertical > GtkComboBox:first-child > .button:checked:hover:last-child,
 .linked.vertical .entry:first-child,
 .linked.vertical .button:first-child,
 .linked.vertical .button:active:first-child,
@@ -1179,6 +1239,16 @@ GtkComboBox.combobox-entry .button {
 }
 
 /* Bottom button (vertical) */
+.linked.vertical > GtkComboBox:last-child > .button:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:focus:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:hover:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:insensitive:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:active:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:checked:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:focus:active:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:focus:checked:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:active:hover:last-child,
+.linked.vertical > GtkComboBox:last-child > .button:checked:hover:last-child,
 .linked.vertical .entry:last-child,
 .linked.vertical .button:last-child,
 .linked.vertical .button:active:last-child,
@@ -1193,6 +1263,16 @@ GtkComboBox.combobox-entry .button {
 }
 
 /* Linked single button (vertical) */
+.linked.vertical > GtkComboBox:only-child > .button:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:focus:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:hover:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:insensitive:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:active:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:checked:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:focus:active:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:focus:checked:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:active:hover:only-child,
+.linked.vertical > GtkComboBox:only-child > .button:checked:hover:only-child,
 .linked.vertical .entry:only-child,
 .linked.vertical .button:only-child,
 .linked.vertical .button:active:only-child,
