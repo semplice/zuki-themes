@@ -1569,10 +1569,11 @@ GtkCalendar.header .stack-switcher > .titlebutton.button {
 }
 .stack-switcher > .button.needs-attention > GtkLabel, .stack-switcher > .button.needs-attention > GtkImage {
 	animation: needs_attention 150ms ease-in;
-	background-color: @theme_bg_color; /* FIXME: ? */
 	background-size: 6px 6px, 6px 6px;
 	background-repeat: no-repeat;
 	background-position: right 3px, right 4px; 
+
+	color: shade(@vera-color, 0.85);
 }
 .stack-switcher > .button.needs-attention > GtkLabel:backdrop, .stack-switcher > .button.needs-attention > GtkImage:backdrop {
 	background-size: 6px 6px, 0 0; 
