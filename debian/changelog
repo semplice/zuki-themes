@@ -1,3 +1,18 @@
+semplice-zuki-themes (1.4.7-1) unstable; urgency=medium
+
+  * [gtk-3.0] Fix overshoot declaration
+  * [gtk-3.0] Fix ComboBox font color. Fixes #1
+  * [gtk-3.0] Remove box-shadow from TreeView rows. Fixes #2
+  * [gtk-3.0] Fix file picker sidebar. Fixes #3
+  * [gtk-3.0] Remove outlines on focus. Contributes to #8
+  * [gtk-3.0] Fix linked buttons
+  * [gtk-3.0] Remove unnecessary background-color on buttons needing attention, and mark them with the vera-color. Fixes #7.
+  * [gtk-3.0] Make the color chooser buttons flat. Fixes #4.
+  * [gtk-3.0] Add some padding to list rows. Contributes to #5.
+  * [gtk-3.0] CSD tweaks
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 12 Oct 2015 00:56:14 +0200
+
 semplice-zuki-themes (1.4.6-1) unstable; urgency=medium
 
   * [gtk-3.0] Theme overshoot's top and bottom but not left and right.
