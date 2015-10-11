@@ -1815,10 +1815,6 @@ GtkComboBox.combobox-entry .button:active:hover {
 }
 
 GtkComboBox .button {
-	color: @internal_element_color;
-}
-
-GtkComboBox .button:hover {
 	color: @theme_text_color;
 }
 
