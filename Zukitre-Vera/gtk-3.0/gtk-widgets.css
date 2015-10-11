@@ -26,14 +26,11 @@
 	-GtkDialog-button-spacing: 4;
 	-GtkDialog-action-area-border: 0;
 	-GtkStatusbar-shadow-type: none;
-}
 
-/* Maybe better to have this as a focus since the removal of the adwaita engine */
-*:focus {
 	outline-color: alpha(@theme_text_color, 0.3);
-	outline-style: dashed;
+	outline-style: none;
 	outline-offset: -3px;
-	outline-width: 1px;
+	outline-width: 0px;
 	outline-radius: 2px;
 }
 
