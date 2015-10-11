@@ -2660,8 +2660,7 @@ GtkMessageDialog {
 }
 
 .sidebar.list .sidebar-icon {
-	/* 10px seems nice */
-	padding: 10px;
+	padding: 5px;
 }
 /* end file picker */
 
@@ -3689,6 +3688,10 @@ GtkExpander:checked {
 
 .list {
 	background-color: @list_box_bg;
+}
+
+.list-row {
+	padding: 5px;
 }
 
 .list-row:hover {
