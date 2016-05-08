@@ -1,3 +1,89 @@
+semplice-zuki-themes (3.20.0.0-1) unstable; urgency=medium
+
+  [ leigh123linux ]
+  * fix firefox tooltip background colour
+  * fix sidebar in nemo/nautilus
+
+  [ Tom Gehrke ]
+  * Remove background colors from non-current days
+
+  [ Mattias ]
+  * Started update to 3.18
+  * Removal of old stuff
+  * Removed metacity support
+  * Xfwm, gtk2, gtk3 fixes and shell theme added.
+  * Readme update.
+  * Zukitwo beta added
+  * A couple of changes
+  * Updated the firefox theme
+  * Minor fixes
+  * Fixed nautilus and nemo desktop icon text.
+  * xfce4 notify fixes
+  * Additional xfce notify fixes and whiskermenu fix.
+  * Minor tweaks.
+  * Scrollbar active color changed.
+  * Assets update and more flat buttons.
+  * Started port to 3.20
+  * Removed Zukitwo 3.18 from master
+  * Bug squish and some tweaks.
+  * Disabled some transitions and more.
+  * Removed backdrop on searchbar.
+  * Better text color on disabled infobar button.
+  * Better popover menu items.
+  * Dark assets and color changes.
+  * Added scrollbar steppers and some gtk2 theme changes.
+  * Floating-bar and app-notification fixes.
+  * Better scrollbar steppers.
+  * Made the headerbar more compact.
+  * Ported Zukitwo to 3.20
+  * Readme update
+  * Smaller statusbar and fixed selected row checkboxes.
+  * Tooltips now have the same color on gtk3 and gtk2 apps.
+  * Readme update.
+  * Firefox scrollbar workaround added.
+  * More fixes.
+  * Minor fix.
+  * xfce4-indicator color fix.
+  * Additional xfce4-indiator fix.
+  * Fix: https://bugzilla.gnome.org/show_bug.cgi?id=765038
+  * Readme update.
+  * xfce gtk3 tweaks
+  * Added screenshots.
+  * export-ignore on unwanted files.
+  * Fixed a bug.
+  * Fixed view backdrop color.
+  * Reduced button and entry paddings for more compact buttons.
+  * Fixed selected backdrop fg color.
+  * A couple of tweaks.
+  * Minor fix.
+  * Added style for default buttons. (#63)
+  * Changed tab close button color.
+  * New documentation.
+  * New documentation.
+  * Readme fix.
+  * Readme fix.
+  * Readme fix.
+  * Restored Zukitwo menubar.
+  * Added untested lightdm support.
+  * Lightdm: Better colors.
+  * Fix OpenWeather extension styling #66
+  * Refactor levelbar styling.
+  * Lightdm css improvments. #65
+  * Gtk2: Rewritten and cleaned up. Added caja and pluma styles etc.
+  * Gtk2: Some additional fixes.
+  * Gtk2: Fixed some menu colors.
+  * Fix xfce notify progressbar #68
+  * Tidy treeview style properties.
+  * Gtk2: Scrollbar fixes.
+  * Add a background to cellrendertext.
+  * New gtk2 style and new column headers.
+  * Gtk2: Panel button fix.
+
+  [ Eugenio Paolantonio (g7) ]
+  * Merge rewritten upstream theme. Adds GTK+3.20 support but loses our changes.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 08 May 2016 19:19:25 +0200
+
 semplice-zuki-themes (1.4.7-1) unstable; urgency=medium
 
   * [gtk-3.0] Fix overshoot declaration
