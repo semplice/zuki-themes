@@ -1,3 +1,9 @@
+semplice-zuki-themes (3.20.0.1-1) unstable; urgency=medium
+
+  * [packaging] Do not try to install deprecated xfwm and metacity themes
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 09 May 2016 22:02:11 +0200
+
 semplice-zuki-themes (3.20.0.0-1) unstable; urgency=medium
 
   [ leigh123linux ]
